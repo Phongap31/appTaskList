@@ -1,0 +1,27 @@
+.todo-n{
+    border: #000 1px solid;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.todo-n .left  {
+    margin-left: 0;
+}
+.todo-n .detail{
+    padding: 5px 10px;
+    background-color: rgb(74, 180, 223);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+.todo-n .remove{
+    padding: 5px 10px;
+    background-color: rgb(218, 47, 47);
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 5px;
+    border: none;
+}
